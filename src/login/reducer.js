@@ -12,7 +12,7 @@ const initialState = {
 }
 
 const reducer = function loginReducer (state = initialState, action) {  
-    console.log(action.type)
+    console.log(action.type, 'login')
 	switch (action.type) {
 		// Set the requesting flag and append a message to be shown
 		case LOGIN_REQUESTING:

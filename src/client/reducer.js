@@ -6,6 +6,7 @@ const initialSate = {
 }
 
 const reducer = function clientReducer (state = initialSate, action) {  
+    console.log(action.type, 'client')
 	switch (action.type) {
 		case CLIENT_SET:
 			return {
